@@ -1,9 +1,9 @@
-import React from 'react';
+import React from './cjs/react.production.min.js';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ShopContextProvider from './context/ShopContext';
+import ShopContextProvider from '../../frontend/src/context/shopcontext.jsx ';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

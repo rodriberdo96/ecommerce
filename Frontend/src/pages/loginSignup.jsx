@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import  React, { useState } from './cjs/react.production.min.js'
 import '../pages/Css/LoginSignup.css'
 
 const LoginSignup = () => {

@@ -5,7 +5,7 @@ import cart_icon from '../assets/cart_icon.png'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useContext } from 'react'
-import { ShopContext } from '../../context/ShopContext'
+import { ShopContext } from '../../context/shopcontext'
 import dropdown_icon from '../assets/dropdown_icon.png'
 
     const Navbar = () => {

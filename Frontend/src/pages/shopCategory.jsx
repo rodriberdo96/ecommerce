@@ -1,6 +1,6 @@
-import React, { useContext } from 'react'
+import React, { useContext } from './cjs/react.production.min.js'
 import './Css/ShopCategory.css'
-import { ShopContext } from '../context/ShopContext'
+import { ShopContext } from '../context/shopcontext '
 import dropdown_icon from '../components/assets/dropdown_icon.png'
 import Item from '../components/item/item'
 

@@ -1,7 +1,7 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from './umd/react-router-dom.production.min.js';
 import Shop from './pages/shop';
-import ShopCategory from './pages/shopCategory';
-import Navbar from './components/navbar/navbar.jsx';
+import ShopCategory from './pages/shopcategory.jsx ';
+import Navbar from './components/navbar/navbar.jsx ';
 import Product from './pages/product.jsx';
 import LoginSignup from './pages/loginSignup.jsx';
 import Cart from './pages/cart.jsx';
