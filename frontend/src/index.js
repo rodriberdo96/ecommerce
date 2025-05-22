@@ -1,4 +1,4 @@
-import React from './cjs/react.production.min.js';
+
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App.js';

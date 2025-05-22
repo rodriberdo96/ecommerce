@@ -1,8 +1,8 @@
 
-import {useContext} from './cjs/react.production.min.js'
-import {ShopContext} from '../context/shopcontext.jsx '
+import {useContext} from 'react'
+import ShopContext from 'frontend/src/context/shopcontext.jsx'  
 import './Css/Product.css'
-import { useParams } from './umd/react-router-dom.production.min.js'
+import { useParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb/Breadcrumb.jsx'
 import ProductDisplay from '../components/ProductDisplay/ProductDisplay.jsx'
 import DescriptionBox from '../components/DescriptionBox/DescriptionBox.jsx'
