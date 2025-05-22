@@ -10,8 +10,7 @@ const cors = require('cors');
 const allowedOrigins = [process.env.FRONTEND_URL || 'http://localhost:5173'];
 
 app.use(cors({
-    origin: allowedOrigins,
-    credentials: true
+  origin: 'https://ecommercerodri.netlify.app'
 }));
 
 
