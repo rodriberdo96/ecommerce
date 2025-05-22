@@ -141,6 +141,12 @@ app.get('/allproducts', async (req, res) => {
     res.send(products);
 });
 
+app.get('/api/products', async (req, res) => {
+  let products = await Product.find({});
+  res.json(products);
+});
+
+
 //Schema Creating User Model
 const Users = new mongoose.model("Users", {
     name: {
