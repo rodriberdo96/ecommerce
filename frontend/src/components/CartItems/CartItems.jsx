@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
 import './CartItems.css'
-import {ShopContext} from 'frontend/src/context/shopcontext.jsx'
+import {ShopContext} from '../../../../frontend/src/context/shopcontext'
 import remove_icon from '../assets/cart_cross_icon.png'
 
 
