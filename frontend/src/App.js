@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Shop from './pages/shop.jsx';
-import ShopCategory from 'frontend/src/pages/shopcategory.jsx';
+import ShopCategory from '../../frontend/src/pages/shopcategory.jsx';
 import Navbar from '../../frontend/src/components/navbar/navbar.jsx' 
 import Product from './pages/product.jsx';
 import LoginSignup from './pages/loginSignup.jsx';
