@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from './umd/react-router-dom.production.min.js';
-import Shop from './pages/shop';
+import Shop from './pages/shop.jsx';
 import ShopCategory from './pages/shopcategory.jsx ';
 import Navbar from './components/navbar/navbar.jsx ';
 import Product from './pages/product.jsx';

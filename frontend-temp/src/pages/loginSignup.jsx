@@ -1,5 +1,5 @@
 import  React, { useState } from 'frontend\node_modules\react\\index.js'
-import '../pages/Css/LoginSignup.css'
+import './Css/LoginSignup.css'
 
 const LoginSignup = () => {
   const [state, setState] =useState('Login');

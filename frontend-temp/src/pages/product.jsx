@@ -1,12 +1,12 @@
 import React from 'frontend\node_modules\react\\index.js'
 import {useContext} from './cjs/react.production.min.js'
-import {ShopContext} from '../../../frontend/src/context/shopcontext.jsx '
+import {ShopContext} from '../context/shopcontext.jsx '
 import './Css/Product.css'
 import { useParams } from './umd/react-router-dom.production.min.js'
-import Breadcrumb from '../components/Breadcrumb/Breadcrumb'
-import ProductDisplay from '../components/ProductDisplay/ProductDisplay'
-import DescriptionBox from '../components/DescriptionBox/DescriptionBox'
-import RelatedProducts from '../components/RelatedProducts/RelatedProducts'
+import Breadcrumb from '../components/Breadcrumb/Breadcrumb.jsx'
+import ProductDisplay from '../components/ProductDisplay/ProductDisplay.jsx'
+import DescriptionBox from '../components/DescriptionBox/DescriptionBox.jsx'
+import RelatedProducts from '../components/RelatedProducts/RelatedProducts.jsx'
 
 const Product = () => {
   const {all_product}=useContext(ShopContext);
