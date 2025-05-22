@@ -1,5 +1,5 @@
 
-import '../../../../frontend/src/components/Breadcrumb/breadcrumb.css'
+import '../Breadcrumb/breadcrumb2.css'
 
 import arrow_icon from '../assets/breadcrum_arrow.png'
 
