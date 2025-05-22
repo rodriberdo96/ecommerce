@@ -1,5 +1,5 @@
 
-import './Breadcrumb.css'
+import './breadcrumb.css'
 import arrow_icon from '../assets/breadcrum_arrow.png'
 
 const Breadcrumb = (props) => {
