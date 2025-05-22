@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 const multer = require('multer');
 const path = require('path');
 const cors = require('cors');
-const allowedOrigins = [process.env.FRONTEND_URL || 'http://localhost:5173'];
+const allowedOrigins = [process.env.FRONTEND_URL || `http://localhost:${PORT}`];
 
 app.use(cors({
   origin: 'https://ecommercerodri.netlify.app'
@@ -140,7 +140,14 @@ app.get('/allproducts', async (req, res) => {
     console.log(products);
     res.send(products);
 });
-
+app.get('/allproducts', async (req, res) => {
+  try {
+    const products = await Product.find({}); // sin filtros
+    res.json(products);
+  } catch (err) {
+    res.status(500).json({ error: 'Error al obtener productos' });
+  }
+})
 app.get('/api/products', async (req, res) => {
   let products = await Product.find({});
   res.json(products);
