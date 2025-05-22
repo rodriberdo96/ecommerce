@@ -1,4 +1,4 @@
-import React from 'frontend\node_modules\react\\index.js'
+
 import CartItems from '../components/CartItems/CartItems'
 
 const Cart = () => {

@@ -1,9 +1,9 @@
-import React from 'frontend\node_modules\react\\index.js'
-import Hero from '../components/hero/hero'
-import Popular from '../components/popular/popular'
-import Offers from '../components/offers/Offers'
-import NewCollections from '../components/NewCollection/NewCollections'
-import NewsLetter from '../components/NewsLetter/NewsLetter'
+
+import Hero from '../components/hero/hero';
+import Popular from '../components/popular/popular';
+import Offers from '../components/offers/Offers';
+import NewCollections from '../components/NewCollection/NewCollections';
+import NewsLetter from '../components/NewsLetter/NewsLetter';
 
 const Shop = () => {
   return (
