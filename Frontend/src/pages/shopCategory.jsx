@@ -1,4 +1,4 @@
-import React, { useContext } from './cjs/react.production.min.js'
+import React, { useContext } from 'frontend\node_modules\react\\index.js'
 import './Css/ShopCategory.css'
 import { ShopContext } from '../context/shopcontext '
 import dropdown_icon from '../components/assets/dropdown_icon.png'

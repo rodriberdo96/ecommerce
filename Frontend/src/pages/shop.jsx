@@ -1,4 +1,4 @@
-import React from './cjs/react.production.min.js'
+import React from 'frontend\node_modules\react\\index.js'
 import Hero from '../components/hero/hero'
 import Popular from '../components/popular/popular'
 import Offers from '../components/offers/Offers'

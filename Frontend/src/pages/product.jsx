@@ -1,4 +1,4 @@
-import React from './cjs/react.production.min.js'
+import React from 'frontend\node_modules\react\\index.js'
 import {useContext} from './cjs/react.production.min.js'
 import {ShopContext} from '../../../frontend/src/context/shopcontext.jsx '
 import './Css/Product.css'

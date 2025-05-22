@@ -1,4 +1,4 @@
-import  React, { useState } from './cjs/react.production.min.js'
+import  React, { useState } from 'frontend\node_modules\react\\index.js'
 import '../pages/Css/LoginSignup.css'
 
 const LoginSignup = () => {
