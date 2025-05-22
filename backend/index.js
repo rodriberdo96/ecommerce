@@ -18,9 +18,6 @@ app.use(cors({
 app.use(express.json());
 
 
-app.listen(PORT, () => {
-console.log(`Server running on port ${PORT}`);
-});
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI);
@@ -282,9 +279,9 @@ app.post('/fetchcartdata',fetchUser, async (req, res) => {
     res.json(userData.cartData);
 });
 
-app.listen(port, (error) => {
+app.listen(PORT, (error) => {
     if (!error) {
-        console.log('Server running on port ' + port);
+        console.log(`Server running on port ${PORT}`);
     }
     else {
         console.log('Error: ' + error);
