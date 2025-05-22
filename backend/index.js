@@ -1,5 +1,5 @@
 const PORT = process.env.PORT || 4000;
-const BASE_URL = process.env.BASE_URL || `http://localhost:${port}`;
+const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`;
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
