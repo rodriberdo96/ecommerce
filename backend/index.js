@@ -1,4 +1,5 @@
-const port = 4000;
+const port = process.env.PORT || 4000;
+const BASE_URL = process.env.BASE_URL || `http://localhost:${port}`;
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
@@ -6,15 +7,21 @@ const jwt = require('jsonwebtoken');
 const multer = require('multer');
 const path = require('path');
 const cors = require('cors');
+const allowedOrigins = [process.env.FRONTEND_URL || 'http://localhost:5173'];
+
+app.use(cors({
+    origin: allowedOrigins,
+    credentials: true
+}));
 
 
 app.use(express.json());
-app.use(cors());
 
 
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://rodriberdomas:Alejo007@cluster0.oorjknw.mongodb.net/e-commerce');
+mongoose.connect(process.env.MONGO_URI);
+
 
 //API Creation
 
@@ -45,7 +52,7 @@ app.use('/images', express.static('upload/images'));
 app.post('/upload', upload.single('product'), (req, res) => {
     res.json({ 
         success: 1,
-        image_url:`http://localhost:${port}/images/${req.file.filename}` 
+        image_url: `${BASE_URL}/images/${req.file.filename}`
     });
 });
 
