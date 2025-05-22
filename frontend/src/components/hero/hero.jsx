@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './hero.css'
 import hand_icon from '../assets/hand_icon.png'
 import arrow from '../assets/arrow.png'

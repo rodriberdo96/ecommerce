@@ -3,7 +3,7 @@ import './ProductDisplay.css'
 import star_icon from '../assets/star_icon.png'
 import star_dull_icon from '../assets/star_dull_icon.png'
 import { useState } from 'react'
-import { ShopContext } from '../../context/shopcontext' 
+import { ShopContext } from 'frontend/src/context/shopcontext.jsx' 
 
 
 const ProductDisplay = (props) => {
